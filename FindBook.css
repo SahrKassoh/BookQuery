@@ -1,0 +1,59 @@
+.find-book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: rebeccapurple;
+}
+
+.find-book-form {
+  width: 100%;
+  max-width: 300px; /* Adjust width of the form as necessary */
+  margin-top: 20px;
+}
+
+.book-details {
+  background-color: rebeccapurple;
+  border: 1px solid grey;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.error {
+  color: rebeccapurple;
+  margin-top: 10px;
+}
+
+.find-book-form input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.find-book-form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.find-book-form button {
+  background-color: black;
+  color: rebeccapurple;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.find-book-form button:hover {
+  background-color: grey;
+}
+
